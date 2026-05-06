@@ -1,0 +1,22 @@
+{
+  "name": "logging-middleware",
+  "version": "1.0.0",
+  "description": "Structured logging package — posts lifecycle events to the central evaluation service",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "license": "ISC"
+}
